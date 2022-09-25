@@ -21,6 +21,10 @@ bash Miniconda.sh -b  # installs it
 rm -rf Miniconda.sh  # removes the installer
 export PATH="/root/miniconda3/bin:$PATH"  # prepends the new path
 
+# apply a fix to 20.04 ubuntu to include the libssl1.1 library 
+wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1-1ubuntu2.1~18.04.20_amd64.deb
+dpkg -i libssl1.1_1.1.1-1ubuntu2.1~18.04.20_amd64.deb
+
 # install pdf tools needed
 wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.focal_amd64.deb
 apt install -y ./wkhtmltox_0.12.6-1.focal_amd64.deb
