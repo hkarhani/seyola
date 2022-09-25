@@ -38,6 +38,7 @@ pip install pybit==1.3.6 # install bybit API pybit (older version 1.3.6)
 pip install discord-webhook # install discord web-hook
 pip install PyPDF2 # pypPDF2 lib
 pip install pdfkit # pdfkit lib
+pip install schedule # used for Scheduling Jobs
 
 # prepare the folders in the image
 mkdir /seyola_code
