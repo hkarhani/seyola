@@ -21,7 +21,7 @@ bash Miniconda.sh -b  # installs it
 rm -rf Miniconda.sh  # removes the installer
 export PATH="/root/miniconda3/bin:$PATH"  # prepends the new path
 
-# apply a fix to 20.04 ubuntu to include the libssl1.1 library 
+# apply a fix to 20.04 ubuntu to include the libssl1.1 library
 wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1-1ubuntu2.1~18.04.20_amd64.deb
 dpkg -i libssl1.1_1.1.1-1ubuntu2.1~18.04.20_amd64.deb
 
@@ -38,7 +38,7 @@ conda install -y -c conda-forge matplotlib # matplotlib
 conda update -y --all
 
 # install needed python libs via pip
-pip install pybit==1.3.6 # install bybit API pybit (older version 1.3.6)
+pip install pybit # install the latest bybit library
 pip install discord-webhook # install discord web-hook
 pip install PyPDF2 # pypPDF2 lib
 pip install pdfkit # pdfkit lib
