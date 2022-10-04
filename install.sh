@@ -43,6 +43,8 @@ pip install discord-webhook # install discord web-hook
 pip install PyPDF2 # pypPDF2 lib
 pip install pdfkit # pdfkit lib
 pip install schedule # used for Scheduling Jobs
+pip install Jinja2 # used for templating language
+pip install beautifulsoup4 # beautiful sout for HTML parsing
 
 # prepare the folders in the image
 mkdir /seyola_code
