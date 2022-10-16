@@ -45,6 +45,7 @@ pip install pdfkit # pdfkit lib
 pip install schedule # used for Scheduling Jobs
 pip install Jinja2 # used for templating language
 pip install beautifulsoup4 # beautiful sout for HTML parsing
+pip install python-coinmarketcap # Adding python-coinmarketcap
 
 # prepare the folders in the image
 mkdir /seyola_code
