@@ -47,5 +47,10 @@ pip install Jinja2 # used for templating language
 pip install beautifulsoup4 # beautiful sout for HTML parsing
 pip install python-coinmarketcap # Adding python-coinmarketcap
 
+# install web3 and mongo modules
+pip install web3
+pip install pymongo
+pip install dnspython
+
 # prepare the folders in the image
 mkdir /seyola_code
