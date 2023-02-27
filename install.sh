@@ -11,7 +11,7 @@ apt-get upgrade -y  # upgrade packages
 
 # installs system tools
 apt-get install -y bzip2 gcc git htop screen vim wget
-apt-get install wkhtmltopdf
+apt-get install -y wkhtmltopdf
 apt-get upgrade -y bash  # upgrades bash if necessary
 apt-get clean  # cleans up the package index cache
 
